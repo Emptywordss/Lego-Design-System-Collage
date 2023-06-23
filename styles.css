@@ -1,0 +1,82 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f7f7f7;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.collage {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.item {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  margin-top: 0;
+  color: #333;
+}
+
+.heading {
+  color: #f05537;
+}
+
+.btn {
+  display: block;
+  margin-bottom: 10px;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #f05537;
+  color: #fff;
+  border: none;
+}
+
+.secondary {
+  background-color: #e6b448;
+}
+
+.body-text {
+  color: #666;
+}
+
+.input-field {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.color-swatch {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+  border-radius: 50%;
+}
+
+.primary {
+  background-color: #f05537;
+}
+
+.secondary {
+  background-color: #e6b448;
+}
+
+.tertiary {
+  background-color: #66b933;
+}
